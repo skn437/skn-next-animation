@@ -1,0 +1,11 @@
+@import "_SassExtension";
+
+#button {
+  margin: 15px;
+  position: relative;
+  left: 35%;
+}
+
+#container {
+  @include box;
+}

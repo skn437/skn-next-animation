@@ -1,0 +1,13 @@
+@mixin box {
+  padding: 2em 2em 5em 2em;
+  
+  #box {
+    width: 10em;
+    height: 10em;
+    background: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
